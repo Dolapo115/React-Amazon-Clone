@@ -1,0 +1,49 @@
+.checkout-main {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  margin-top: 60px;
+}
+
+.checkout-ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout-title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+@media only screen and (max-width: 700px){
+  .checkout-main {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  margin-top: 60px;
+  flex-direction: column;
+  justify-content: column-reverse;
+}
+
+.checkout-ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout-title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+/* .checkout-right{
+  display: none;
+}
+ */
+
+
+
+}

@@ -1,0 +1,75 @@
+.desktopnav-main{
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 60px;
+}
+
+.desktop-nav-logo{
+    width: 100px;
+    margin: 18px 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.desktop-nav-search{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.desktop-nav-search-input{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.desktop-nav-search-icon{
+    background-color: #CD9042;
+    padding: 5px;
+    height: 22px !important;
+}
+
+.desktop-nav-right{
+    display: flex;
+}
+
+.header-right-link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.right-option{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.option-line-one{
+    font-size: 10px;
+}
+
+.option-line-two{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.right-option-basket{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.basket-count{
+    margin:0 10px;
+}
